@@ -43,7 +43,7 @@ void *consumer(void *args){
 
         sem_post(&s);//release
         sem_post(&empty);
-        sleep(3);
+        sleep(2);
     }
     return NULL;
 }
